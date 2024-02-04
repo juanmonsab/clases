@@ -10,7 +10,11 @@ public class Estudiante {
         this.carrera = carrera;
     }
 
-    void guardarEstudiante() {
+    public void imprimirInformacion() {
+        System.out.println("Nombre: " + nombre + ", Carrera: " + carrera);
+    }
+
+    public void guardarEstudiante() {
         System.out.println("Guardando estudiante en base de datos");
     }
 
