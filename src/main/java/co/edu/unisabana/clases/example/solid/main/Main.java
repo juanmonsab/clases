@@ -15,7 +15,7 @@ public class Main {
     public static void verMateriasEstudiantes(Estudiante[] estudiantes) {
         for (Estudiante estudiante : estudiantes) {
             estudiante.imprimirInformacion();
-            MateriaHandler.handleMaterias(estudiante);
+            MateriaGestor.gestionMaterias(estudiante);
         }
     }
 }
